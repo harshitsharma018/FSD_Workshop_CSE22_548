@@ -6,5 +6,5 @@ myEmmiter.on("greet", (teacher) => {
 myEmmiter.on("exit", (teacher) => {
     console.log(`Class ended by ${teacher}`);
 })
-myEmmiter.emit("greet","chandrahas");
-myEmmiter.emit("exit","chandrahas");
+myEmmiter.emit("greet","Harshit");
+myEmmiter.emit("exit","Harshit");
